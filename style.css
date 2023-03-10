@@ -1,0 +1,175 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 0.5px solid rgb(165, 161, 161);
+  border-radius: 10px;
+  box-shadow: 1px 4px 30px rgba(88, 87, 87, 0.6);
+}
+
+.topbar {
+  display: flex;
+  flex: 3;
+  margin-left: 5px;
+  
+}
+
+.mainIcon {
+  height: 48px;
+  width: 48px;
+  display: flex;
+}
+
+.appName {
+  margin-left: 5px;
+  margin-top: 17px;
+  font-size: medium;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.standard {
+  display: flex;
+  
+}
+
+.menu {
+  height: 50px;
+  width: 50px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.menu:hover{
+  background-color: rgb(251, 211, 252);
+  border-radius: 3px;
+}
+
+.heading {
+  margin-top: 12px;
+  margin-left: 3px;
+  font-size: 150%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.keepOnTop {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.keepOnTop:hover{
+  background-color: rgb(211, 237, 252);
+  border-radius: 3px;
+}
+
+.history {
+  height: 40px;
+  width: 40px;
+  margin-left: 90px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+
+.screne {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 24px 0 0 300px;
+}
+
+.numbers {
+  font-size: 350%;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spop {
+  display: flex;
+  flex: 6;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.mc {
+  color: gray;
+  cursor: pointer;
+}
+.mr {
+  color: gray;
+  cursor: pointer;
+}
+
+.mdrop {
+  color: gray;
+  cursor: pointer;
+}
+
+.mpos{
+  cursor: pointer;
+}
+
+.mneg{
+  cursor: pointer;
+}
+
+.ms{
+  cursor: pointer;
+}
+
+.btnOne {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btnTwo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btnThree {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btnFour {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btnFive {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btns {
+  margin-bottom: 5px;
+}
+
+button {
+  font-size: large;
+  height: 50px;
+  width: 137px;
+  border: 0.3px solid rgb(230, 226, 226);
+  border-radius: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blue{
+  font-size: large;
+  color: aliceblue;
+  background-color: rgb(49, 49, 199);
+}

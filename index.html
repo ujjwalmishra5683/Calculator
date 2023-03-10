@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="topbar">
+      <img
+        class="mainIcon"
+        src="https://img.freepik.com/premium-vector/calculator-icon-with-gradient-purple-effect_197792-1043.jpg?w=2000"
+        alt=""
+      />
+      <p class="appName">UJ's Calculator</p>
+     
+    </div>
+    <div class="standard">
+      <img
+        src="https://icons-for-free.com/iconfiles/png/512/svg+general+ham+list+menu+menu+icon+office+icon-1320185157378483623.png"
+        alt=""
+        class="menu"
+      />
+      <p class="heading">Standard</p>
+      <img
+        src="https://cdn.iconscout.com/icon/free/png-256/arrow-square-up-right-3604729-3002656.png"
+        alt=""
+        class="keepOnTop"
+      />
+      <img
+        src="data:image/png;base64,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"
+        alt=""
+        class="history"
+      />
+    </div>
+
+    <div class="screne">
+      <p class="numbers">0</p>
+    </div>
+    <div class="spop">
+      <h5 class="mc">MC</h5>
+      <h5 class="mr">MR</h5>
+      <h5 class="mpos">M+</h5>
+      <h5 class="mneg">M-</h5>
+      <h5 class="ms">MS</h5>
+      <h5 class="mdrop">M˅</h5>
+    </div>
+
+    <div class="btns">
+      <div class="btnOne">
+        <button>%</button>
+        <button>CE</button>
+        <button>C</button>
+        <button>%</button>
+      </div>
+    <div class="btnTwo">
+      <button><sup>1</sup>/x</button>
+      <button>x<sup>2</sup></button>
+      <button><sup>2</sup>√x</button>
+      <button style="font-size: 150%;">÷</button>
+    </div>
+    <div class="btnThree">
+      <button  style="background-color:rgb(194, 201, 198); color:black;">7</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">8</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">9</button>
+      <button>×</button>
+    </div>
+    <div class="btnFour">
+      <button style="background-color:rgb(194, 201, 198); color:black;">4</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">5</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">6</button>
+      <button>-</button>
+    </div>
+    <div class="btnFive">
+      <button style="background-color:rgb(194, 201, 198); color:black;">1</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">2</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">3</button>
+      <button>+</button>
+    </div>
+    <div class="btnFive">
+      <button><sup>+</sup>/-</button>
+      <button style="background-color:rgb(194, 201, 198); color:black;">0</button>
+      <button>.</button>
+      <button class="blue">=</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  </body>
+  </html>
+  
